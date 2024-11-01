@@ -1,7 +1,7 @@
 FROM golang:latest AS builder
 WORKDIR /app
 COPY app .
-RUN go build hello.go
+RUN go build -ldflags "-s -w" hello.go
 ENTRYPOINT ["./hello"]
 
 FROM scratch
