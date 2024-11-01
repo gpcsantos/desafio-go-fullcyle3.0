@@ -7,4 +7,6 @@ Desafio proposto no curso FullCycle 3.0.
 >Temos que ter o seguinte resultado: Full Cycle Rocks!!
 >A imagem do projeto Go precisa ter menos de 2MB
 
+- para reduzir o tamnaho do binário gerado pelo go build: go build -ldflags "-s -w" hello.go
+
 Link Docker HUB: <https://hub.docker.com/r/gpcsantos/fullcycle>
