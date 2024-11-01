@@ -8,6 +8,7 @@ Desafio proposto no curso FullCycle 3.0.
 > - A imagem do projeto Go precisa ter menos de 2MB
 
 - para reduzir o tamanho do binário gerado pelo go build: **go build -ldflags "-s -w" hello.go**
+
 Referência <https://pkg.go.dev/cmd/link>
 
 Link Docker HUB: <https://hub.docker.com/r/gpcsantos/fullcycle>
